@@ -1,0 +1,8 @@
+<nav>
+    <ul>
+      <li *ngFor="let item of menuService.items" class="border">
+        <shared-menu-item [item]="item">
+        </shared-menu-item>
+      </li>
+    </ul>
+  </nav>

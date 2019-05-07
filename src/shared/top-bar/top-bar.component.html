@@ -1,0 +1,7 @@
+<div class="main">
+  <span>{{now | date: 'hh:mm'}} | </span>
+  <div>
+    <span class="username" (click)="userProfile()">{{ authService.currentUser.userName }}</span>
+    <span class="fa fa-user icon"></span>
+  </div>
+</div>

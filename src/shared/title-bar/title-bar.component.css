@@ -1,0 +1,49 @@
+
+:host {
+    display: block;
+}
+
+.title-bar {
+    flex-grow: 1;
+    display: flex;
+    min-height: 80px;
+}
+
+.title {
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.menu-area {
+    display: flex; 
+    flex-direction: column; 
+    flex-grow: 1;
+}
+
+.menu-items {
+    padding-top: 34px;
+}
+.search-area {
+    flex-grow: 1;
+    padding-left: 180px;
+    padding-top: 20px;
+}
+
+
+.title-bar-small {
+    flex-grow: 1;
+    display: flex;
+    min-height: 56px;
+}
+
+span {
+    margin-left: 10px;
+    margin-right: 20px;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+
+
+

@@ -1,0 +1,33 @@
+:host {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/assets/playngo.jpg);  
+    background-position:  center center;
+    background-size: cover;
+}
+
+.sign-in-form {
+    min-width: 300px;
+    background:rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    padding-top: 100px;
+    z-index: 1
+}
+
+a {
+    line-height: 32px;
+}
+button {
+    float: right;
+}
+
+.message {
+    float: right;
+}
+
+.sign-in-button {
+    width: 260px !important;
+}

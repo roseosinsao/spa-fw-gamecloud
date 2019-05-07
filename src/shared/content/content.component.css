@@ -1,0 +1,17 @@
+:host {
+    display: flex;
+    /*background-color: #f0fff0;*/
+    flex-grow: 1;
+    border-top: 1px solid #DEE2E6;
+}
+
+.menu-item {
+    padding-left: 50px;
+    padding-top: 3px;
+}
+
+.body-style {
+    padding: 20px;
+    flex-grow: 1;
+    overflow: auto;
+}
